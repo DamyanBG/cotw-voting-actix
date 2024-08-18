@@ -14,6 +14,7 @@ This API enables users to vote for their favorite cats in the "Cat Of The Week" 
  - 500 Internal Server Error: General error.
 
 2. Submit a Vote
+
 Endpoint: POST /vote
 Description: Vote for a cat (like or dislike).
 Headers: Authorization: Bearer <JWT Token>
