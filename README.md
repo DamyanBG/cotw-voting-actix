@@ -19,8 +19,8 @@ This API enables users to vote for their favorite cats in the "Cat Of The Week" 
  - Description: Vote for a cat (like or dislike).
  - Headers: Authorization: Bearer <JWT Token>
  - Body:
-json
-```
+
+```json
 {
   "cat_id": "cat123",
   "vote": "like"
@@ -28,10 +28,10 @@ json
 ```
 
 ### Responses:
- - 200 OK: Vote recorded successfully.
- - 400 Bad Request: User already voted.
- - 401 Unauthorized: Missing or invalid token.
- - 500 Internal Server Error: General error.
+ -200 OK: Vote recorded successfully.
+ -400 Bad Request: User already voted.
+ -401 Unauthorized: Missing or invalid token.
+ -500 Internal Server Error: General error.
 
 ### Summary
 
